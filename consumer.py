@@ -8,7 +8,7 @@ from s3fs import S3FileSystem
 def json_deserializer(data):
     return json.loads(data.decode("utf-8"))
 
-# Create a Kafka consumer instance
+# create a Kafka consumer instance
 consumer = KafkaConsumer(
     "stock_topic",
     bootstrap_servers=['localhost:9092'],
