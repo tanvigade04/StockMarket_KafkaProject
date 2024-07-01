@@ -24,11 +24,11 @@ def read_csv_and_send_to_kafka(csv_file_path, topic):
         print(f"Sending message: {message}")
         producer.send(topic, message)
         time.sleep(2)
-        producer.flush()  # Ensure the message is sent
+        producer.flush()  # it ensure the message is sent
 
 # main function to execute the producer script
 if __name__ == "__main__":
-    csv_file_path = 'stockMarket.csv'  # Replace with your CSV file path
-    topic = 'stock_topic'  # Replace with your Kafka topic
+    csv_file_path = 'stockMarket.csv' 
+    topic = 'stock_topic'  # Kafka topic
     read_csv_and_send_to_kafka(csv_file_path, topic)
 
