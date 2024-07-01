@@ -19,4 +19,4 @@
   (https://github.com/tanvigade04/StockMarket_KafkaProject/blob/main/stockMarket.csv)
 
 ## Conclusion:
-    This project demonstrates the real-time data streaming with cloud-based analytics to perform comprehensive stock market analysis. By leveraging Apache Kafka, AWS Glue, Athena, QuickSight, S3, Python, and SQL, build a robust and scalable data pipeline that delivers valuable insights in real-time.
+This project demonstrates the real-time data streaming with cloud-based analytics to perform comprehensive stock market analysis. By leveraging Apache Kafka, AWS Glue, Athena, QuickSight, S3, Python, and SQL, build a robust and scalable data pipeline that delivers valuable insights in real-time.
